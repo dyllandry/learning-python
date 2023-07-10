@@ -13,3 +13,7 @@ reversed_alphabet = reverse(alphabet)
 
 print(alphabet)
 print(reversed_alphabet)
+
+# I later learned you can just produce a slice of the string
+# with default start and end and a negative step
+print(alphabet[::-1])
